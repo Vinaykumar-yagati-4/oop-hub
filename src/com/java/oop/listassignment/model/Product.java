@@ -21,6 +21,5 @@ public class Product {
                 ", category='" + category + '\'' +
                 ", maxRetailPrice=" + maxRetailPrice +
                 '}';
-
     }
 }
