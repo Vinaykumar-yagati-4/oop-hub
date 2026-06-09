@@ -12,6 +12,7 @@ public class ProductUI {
         int maxRetailPrice = InputUtil.getInt("Enter the MRP :");
         return new Product(id,name,category,maxRetailPrice);
     }
+
     public int userOptionMenu(){
         System.out.println("\n----- PRODUCT MANAGEMENT DETAILS -----");
         System.out.println("1.Add Product");
