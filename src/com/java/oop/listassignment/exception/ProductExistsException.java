@@ -1,7 +1,8 @@
 package com.java.oop.listassignment.exception;
 
 public class ProductExistsException extends RuntimeException {
-    public ProductExistsException(String message) {
+    public ProductExistsException(String message)
+    {
         super(message);
     }
 }
