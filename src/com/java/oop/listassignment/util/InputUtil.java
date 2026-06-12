@@ -9,6 +9,7 @@ public class InputUtil {
         System.out.println(message);
         return sc.nextInt();
     }
+
     public  static String getString(String message){
         System.out.println(message);
         return sc.next();
