@@ -32,6 +32,7 @@ public class ArraysTest {
         int[] sortedElements = sortingArrayOfElements(elements);
         for( int i = 0; i < sortedElements.length; i++){
             System.out.println(sortedElements[i]);
+
         }
     }
 }
