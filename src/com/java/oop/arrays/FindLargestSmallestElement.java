@@ -5,7 +5,8 @@ public class FindLargestSmallestElement {
         int arr[] = {6,8,3,4};
         int max = arr[0];
         int min = arr[0];
-        for(int i = 1; i < arr.length - 1; i++){
+        for(int i = 1; i < arr.length - 1; i++)
+        {
             if(arr[i] > max) max = arr[i];
             if(arr[i] < min) min = arr[i];
         }
