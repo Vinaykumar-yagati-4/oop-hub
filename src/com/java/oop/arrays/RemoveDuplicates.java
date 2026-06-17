@@ -12,6 +12,7 @@ public class RemoveDuplicates {
         }
         for (int i = 0; i <= j; i++){
             System.out.println(arr[i] +"");
+
         }
     }
 }
