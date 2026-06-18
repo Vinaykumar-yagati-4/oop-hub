@@ -13,6 +13,7 @@ public class ReverseArray {
         }
         for (int num : arr) {
             System.out.println(num + "");
+
         }
     }
 }
