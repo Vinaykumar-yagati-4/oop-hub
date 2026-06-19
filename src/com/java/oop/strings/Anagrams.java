@@ -10,6 +10,7 @@ public class Anagrams {
         char[] a2 = s2.toCharArray();
         Arrays.sort(a1);
         Arrays.sort(a2);
+
         System.out.println(Arrays.equals(a1,a2));
     }
 }
