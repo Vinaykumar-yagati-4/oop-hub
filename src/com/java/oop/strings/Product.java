@@ -13,7 +13,6 @@ public class Product {
     byte displaySize;
     short manufacturedYear;
 
-
     public Product() {
         id = 333;
         name = "dell laptop";
