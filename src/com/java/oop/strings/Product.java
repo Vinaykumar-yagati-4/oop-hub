@@ -20,5 +20,6 @@ public class Product {
         isAvailable = true;
         company = "dell";
         category = "laptop";
+
     }
 }
