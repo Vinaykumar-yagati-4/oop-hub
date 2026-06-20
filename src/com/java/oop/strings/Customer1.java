@@ -5,4 +5,5 @@ public class Customer1 {
     String name;
     String email;
     String mobileNo;
+
 }
