@@ -9,7 +9,6 @@ public class StringCountVowels {
                 count++;
             }
         }
-
         System.out.println(count);
     }
 }
