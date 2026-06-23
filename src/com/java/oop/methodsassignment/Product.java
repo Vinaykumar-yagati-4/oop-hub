@@ -1,4 +1,4 @@
-package com.java.oop.stringassignment;
+package com.java.oop.methodsassignment;
 
 public class Product {
     int id;
@@ -32,5 +32,16 @@ public class Product {
         this.company = company;
         this.category = category;
 
+    }
+
+    void displayProductDetails(){
+        System.out.println("Id : " + id);
+        System.out.println("Name : " + name);
+        System.out.println("Max Retail Price: " + maxRetailPrice);
+        System.out.println("Rating: " + rating);
+        System.out.println("Reviews Count: " + reviewsCount);
+        System.out.println("Discount Percentage: " + discountPercentage);
+        System.out.println("Is Available: " + isAvailable);
+        System.out.println("Company: " + company);
     }
 }
