@@ -1,4 +1,4 @@
-package com.java.oop.stringassignment;
+package com.java.oop.methodsassignment;
 
 public class Customer {
     int id;
@@ -30,5 +30,14 @@ public class Customer {
 
 
 
+    }
+
+    void displayCustomerDetails(){
+        System.out.println("enter id :"+id);
+        System.out.println("enter age :"+age);
+        System.out.println("enter name :"+name);
+        System.out.println("enter gender :"+gender);
+        System.out.println("enter email :"+email);
+        System.out.println("enter mobile no :"+mobileNumber);
     }
 }

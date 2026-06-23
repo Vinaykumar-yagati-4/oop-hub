@@ -1,4 +1,4 @@
-package com.java.oop.stringassignment;
+package com.java.oop.methodsassignment;
 
 public class Cart {
     String addToCart;
@@ -15,5 +15,11 @@ public class Cart {
         this.addToCart = addToCart;
         this.updateCart = updateCart;
         this.deleteItem = deleteItem;
+    }
+
+    void displayCartDetails(){
+        System.out.println("Add to cart :"+addToCart);
+        System.out.println("Update to cart :"+updateCart);
+        System.out.println("Delete from cart :"+deleteItem);
     }
 }

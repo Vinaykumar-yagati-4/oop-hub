@@ -1,4 +1,4 @@
-package com.java.oop.stringassignment;
+package com.java.oop.methodsassignment;
 
 public class Order {
     long orderId;
@@ -30,5 +30,16 @@ public class Order {
         this.trackingId = trackingId;
         this.deliveryType = deliveryType;
         this.estimatedDeliveryDate = estimatedDeliveryDate;
+    }
+    void displayOrderDetails(){
+        System.out.println("Enter order id :"+orderId);
+        System.out.println("Enter order date :"+orderDate);
+        System.out.println("order status :"+orderStatus);
+        System.out.println("check order cancellation :"+isCancellable);
+        System.out.println("check return status :"+isReturnable);
+        System.out.println("enter tracking id :"+trackingId);
+        System.out.println("select delivery type :"+deliveryType);
+        System.out.println("show estimated delivery date :"+estimatedDeliveryDate);
+
     }
 }

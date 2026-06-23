@@ -1,4 +1,4 @@
-package com.java.oop.stringassignment;
+package com.java.oop.methodsassignment;
 
 public class Payment {
     String transactionId;
@@ -21,5 +21,13 @@ public class Payment {
         this.status = status;
         this.paymentMode = paymentMode;
         this.isPaymentSuccessful = isPaymentSuccessful;
+    }
+
+    void displayPaymentDetails(){
+        System.out.println("Transaction Id :"+transactionId);
+        System.out.println("Enter the amount :"+amount);
+        System.out.println("Status :"+status);
+        System.out.println("Payment mode :"+paymentMode);
+        System.out.println("Check the payment :"+isPaymentSuccessful);
     }
 }
