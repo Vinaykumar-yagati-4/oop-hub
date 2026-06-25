@@ -9,7 +9,6 @@ public class StringPalindrome {
         String input = sc.next();
         String str = "";
         String rev = new StringBuilder(str).reverse().toString();
-
         if(str.equals(rev)){
             System.out.println("palindrome");
         }
