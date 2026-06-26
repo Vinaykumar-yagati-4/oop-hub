@@ -52,6 +52,7 @@ public class StringTest {
         customer1.name = data[1];
         customer1.email = data[2];
         customer1.mobileNo = data[3];
+
         System.out.println("Customer Id : " + customer1.id);
         System.out.println("Customer Name : " + customer1.name);
         System.out.println("Customer Email : " + customer1.email);
