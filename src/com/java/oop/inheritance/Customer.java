@@ -16,7 +16,6 @@ public class Customer {
         this.mobileNo = mobileNo;
         this.productPrice = productPrice;
     }
-
     public void displayCustomerDetails(){
         System.out.println("customer name : " +name);
         System.out.println("Product Price : " +productPrice);
