@@ -41,7 +41,6 @@ public class Main {
                             8756456892L,
                             price          // Dynamic Price
                     );
-
             premiumCustomer.displayDetails();
 
         } else {
