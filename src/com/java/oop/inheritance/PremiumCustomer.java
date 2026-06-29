@@ -4,7 +4,6 @@ public class PremiumCustomer extends Customer{
     String membership = "Gold";
     double DISCOUNT = 0.20;
 
-
     public PremiumCustomer(int id, String name, String email, byte age, long mobileNo, double productPrice) {
         super(id,name,email,age,mobileNo,productPrice);
     }
