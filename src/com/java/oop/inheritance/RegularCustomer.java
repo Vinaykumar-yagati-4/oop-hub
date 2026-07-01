@@ -16,5 +16,6 @@ public class RegularCustomer extends Customer {
         System.out.println("Type: Regular Customer");
         System.out.println("Membership :" +membership);
         System.out.println("Final Price :" +calculateFinalPrice());
+
     }
 }
