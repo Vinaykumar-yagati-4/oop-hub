@@ -13,7 +13,6 @@ public class FindSecondLargestElement {
                 second = num;
             }
         }
-
         System.out.println("Second largest Number :" +second);
     }
 }
