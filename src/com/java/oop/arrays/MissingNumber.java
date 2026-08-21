@@ -12,6 +12,5 @@ public class MissingNumber {
         int missingNumber = expectedSum - actualSum;
 
         System.out.println("Missing number : " +missingNumber);
-
     }
 }
