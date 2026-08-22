@@ -10,7 +10,6 @@ public class MissingNumber {
             actualSum += value;
         }
         int missingNumber = expectedSum - actualSum;
-
         System.out.println("Missing number : " +missingNumber);
     }
 }
