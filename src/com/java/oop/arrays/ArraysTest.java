@@ -8,6 +8,7 @@ public class ArraysTest {
                 highestElement = element[i];
             }
         }
+
         System.out.println("Highest Elememt :" +highestElement);
     }
 
