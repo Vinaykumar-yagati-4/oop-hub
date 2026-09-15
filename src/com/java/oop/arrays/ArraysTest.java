@@ -25,6 +25,7 @@ public class ArraysTest {
             }
         }
         return  sortedArray;
+
     }
 
     static void main(String[] args) {
