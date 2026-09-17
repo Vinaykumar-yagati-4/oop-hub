@@ -31,7 +31,6 @@ public class Main {
             regularCustomer.displayDetails();
 
         } else if (choice == 2) {
-
             PremiumCustomer premiumCustomer =
                     new PremiumCustomer(
                             2,
