@@ -25,7 +25,6 @@ public class RemoveDuplicates {
 
         int[] numbers = {20,10,40,30,40,50,10,30,60};
         Set<Integer> set = new LinkedHashSet<>();
-
         for (int number : numbers){
             set.add(number);
         }
