@@ -9,6 +9,7 @@ public class RemoveDuplicates {
                 result += str.charAt(i);
             }
         }
+
         System.out.println(result);
 
     }
