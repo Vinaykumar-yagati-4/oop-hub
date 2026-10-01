@@ -22,7 +22,6 @@ public class RotateMatrix {
             int right = n - 1;
 
             while (left < right) {
-                
                 int temp = matrix[i][left];
                 matrix[i][left] = matrix[i][right];
                 matrix[i][right] = temp;
