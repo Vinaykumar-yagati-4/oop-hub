@@ -7,6 +7,7 @@ public class RotateMatrix {
                 {4,5,6},
                 {7,8,9}
         };
+
         int n = matrix.length;
         for(int i = 0; i < n; i++){
             for(int j = i; j < n; j++){
