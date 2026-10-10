@@ -16,7 +16,6 @@ public class RotateMatrix {
                 matrix[j][i] = temp;
             }
         }
-
         for(int i = 0; i < n; i++) {
             int left = 0;
             int right = n - 1;
