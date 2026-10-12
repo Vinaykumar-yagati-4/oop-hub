@@ -25,7 +25,6 @@ public class RotateMatrix {
                 int temp = matrix[i][left];
                 matrix[i][left] = matrix[i][right];
                 matrix[i][right] = temp;
-
                 left++;
                 right--;
             }
