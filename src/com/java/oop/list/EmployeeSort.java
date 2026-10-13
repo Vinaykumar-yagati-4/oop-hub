@@ -38,7 +38,6 @@ public class EmployeeSort {
           employees.add(new Employee(101,"soumya",60000));
 
           employees.sort(Comparator.comparingDouble(Employee::getSalary));
-
           employees.forEach(System.out::println);
       }
 }
