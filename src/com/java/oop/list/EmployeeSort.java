@@ -23,7 +23,6 @@ class Employee {
     public double getSalary(){
         return salary;
     }
-
     public String toString() {
         return id + " " +name + " " +salary;
     }
