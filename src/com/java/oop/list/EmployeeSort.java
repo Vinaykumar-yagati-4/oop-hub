@@ -38,6 +38,5 @@ public class EmployeeSort {
 
           employees.sort(Comparator.comparingDouble(Employee::getSalary));
           employees.forEach(System.out::println);
-
       }
 }
